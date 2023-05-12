@@ -39,12 +39,12 @@ print("El texto comienza en <"+ lista[0] +">"+ " y termina en <" + lista[-1] +">
 
 lista_palabra.reverse()
 
-print("El texto al reves es <"+ str(lista_palabra) +">")
+print("El texto al reves es <"+ str(" ".join(lista_palabra)) +">")
 
 
 python = "python" in lista_palabra
-
+ 
 dic = {True:"Aparece",False:"No aparece"}
 
 
-print("Python " + dic[python] + " en el texto")
+print("La palabra 'Python' " + dic[python] + " en el texto")
