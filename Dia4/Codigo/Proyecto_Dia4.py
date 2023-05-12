@@ -9,7 +9,9 @@ sn = input("Empezamos s/n ").lower()
 numero_secreto = randint(1,100)
 # print(numero_secreto)
 turno = 1
-
+if sn == "n":
+    print("Que te follen vas jugar igual")
+    
 while turno <9:
     numero = int(input(f"Turno {turno}: "))
     turno += 1
